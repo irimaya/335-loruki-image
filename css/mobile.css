@@ -1,10 +1,20 @@
+/* Padding */
+.py-4 {
+	padding: 1rem 0;
+}
+
+/* Flex */
+.flex {
+	flex-direction: column;
+}
+
 /* Navbar */
 .navbar {
 	height: 100%;
 }
 
 .navbar ul {
-	background-color: rgba(0, 0, 0, 0.1);
+	/* display: flex; */
 	margin-top: 10px;
 }
 
@@ -22,15 +32,9 @@
 .showcase-text {
 	padding-top: 20px;
 	padding-right: 0;
-	padding-bottom: 40px;
-	animation: slideInFromTop 1s ease-in;
 }
 
-.showcase-form {
-	animation: slideInFromBottom 1s ease-in;
-}
-
-/* Features */
+/* Stats */
 #stats {
 	padding-top: 60px;
 }
@@ -39,7 +43,7 @@
 	width: 100%;
 }
 
-/* Cli */
+/* CLI */
 .cli .grid {
 	grid-template-columns: repeat(1, 1fr);
 }
@@ -55,6 +59,14 @@
 	text-align: center;
 }
 
+/* Footer */
+#mainfooter {
+	text-align: center;
+}
+#mainfooter .flex-box {
+	padding-bottom: 30px;
+}
+
 /* Title */
 .title {
 	text-align: center;
@@ -63,6 +75,10 @@
 .title img {
 	width: 120px;
 	margin: 0 auto;
+}
+
+.w-50 {
+	width: 100%;
 }
 
 /* Subtitle */
@@ -83,6 +99,7 @@
 .features .card:nth-child(6) {
 	grid-column: 1;
 }
+
 .features .card:nth-child(1) {
 	grid-row: 1;
 }
@@ -105,24 +122,4 @@
 /* Docs */
 .docs .grid {
 	grid-template-columns: 1fr;
-}
-
-/* Footer */
-#mainfooter .flex-box-1 {
-	padding-bottom: 20px;
-}
-
-/* Flex */
-.flex {
-	flex-direction: column;
-}
-
-/* Padding */
-.py-4 {
-	padding: 1rem 0;
-}
-
-/* Width */
-.w-50 {
-	width: 100%;
 }
